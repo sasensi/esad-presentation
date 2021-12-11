@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "custom";
+    src: url("../font.woff") format("woff");
+}
+
+@font-face {
+    font-family: "custom-space";
+    src: url("../font-space.woff") format("woff");
+}
+
+:host {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+    font-family: custom-space, custom, monospace;
+}
+
+div {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    white-space: pre-wrap;
+    font-size: 30px;
+}
+
+
+:host ::ng-deep {
+    .mtk1 {
+        color: #f8f8f2;
+    }
+
+    .mtk2 {
+        color: #272822;
+    }
+
+    .mtk3 {
+        color: #75715e;
+    }
+
+    .mtk4 {
+        color: #ae81ff;
+    }
+
+    .mtk5 {
+        color: #a6e22e;
+    }
+
+    .mtk6 {
+        color: #e6db74;
+    }
+
+    .mtk7 {
+        color: #f92672;
+    }
+
+    .mtk8 {
+        color: #f8f8f0;
+    }
+
+    .mtk9 {
+        color: #66d9ef;
+    }
+
+    .mtk10 {
+        color: #fd971f;
+    }
+
+    .mtk11 {
+        color: rgba(174, 129, 255, 0.63);
+    }
+
+    .mtk12 {
+        color: #f8f8f2;
+    }
+
+    .mtk13 {
+        color: #272822;
+    }
+
+    .mtk14 {
+        color: #cfcfc2;
+    }
+
+    .mtk15 {
+        color: #b267e6;
+    }
+
+    .mtk16 {
+        color: #f44747;
+    }
+
+    .mtk17 {
+        color: #6796e6;
+    }
+
+    .mtk18 {
+        color: #cd9731;
+    }
+
+    .mtki {
+        font-style: italic;
+    }
+
+    .mtkb {
+        font-weight: bold;
+    }
+
+    .mtku {
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+}
